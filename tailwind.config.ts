@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        status: {
+          safe: "hsl(var(--status-safe))",
+          "safe-foreground": "hsl(var(--status-safe-foreground))",
+          threatened: "hsl(var(--status-threatened))",
+          "threatened-foreground": "hsl(var(--status-threatened-foreground))",
+          endangered: "hsl(var(--status-endangered))",
+          "endangered-foreground": "hsl(var(--status-endangered-foreground))",
+          critical: "hsl(var(--status-critical))",
+          "critical-foreground": "hsl(var(--status-critical-foreground))",
+        },
+        ecosystem: {
+          forest: "hsl(var(--forest))",
+          ocean: "hsl(var(--ocean))",
+          desert: "hsl(var(--desert))",
+          mountain: "hsl(var(--mountain))",
+          wetland: "hsl(var(--wetland))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
