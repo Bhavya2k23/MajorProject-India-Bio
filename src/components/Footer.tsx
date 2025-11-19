@@ -108,7 +108,7 @@ const Footer = () => {
             © {currentYear} India Biodiversity Explorer. Educational Project.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart className="h-3 w-3 text-red-500 fill-current" /> for Indian Wildlife
+            Made for Indian Wildlife
           </p>
         </div>
       </div>
