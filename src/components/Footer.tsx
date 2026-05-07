@@ -111,6 +111,35 @@ const Footer = () => {
             Made for Indian Wildlife
           </p>
         </div>
+
+        {/* ── Hidden Admin Access Link ───────────────────────────────
+            Almost invisible to regular visitors (very low opacity).
+            Brightens slightly on hover so only those who know can find it.
+            Protected by JWT — clicking it only shows the login form.
+        ─────────────────────────────────────────────────────────── */}
+        <div className="mt-2 text-center">
+          <Link
+            to="/admin/login"
+            style={{
+              color: "rgba(128,128,128,0.18)",
+              fontSize: "11px",
+              textDecoration: "none",
+              letterSpacing: "0.12em",
+              userSelect: "none",
+              transition: "color 0.3s ease",
+            }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.color = "rgba(128,128,128,0.55)")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.color = "rgba(128,128,128,0.18)")
+            }
+            title="Admin Portal"
+          >
+            ⚙ Admin
+          </Link>
+        </div>
+
       </div>
     </footer>
   );

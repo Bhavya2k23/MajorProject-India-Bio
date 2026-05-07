@@ -12,11 +12,14 @@ const Navbar = () => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/zones", label: "Zones" },
-    { path: "/species", label: "Species" },
+    { path: "/animals", label: "Animals" },
+    { path: "/plants", label: "Plants" },
     { path: "/ecosystems", label: "Ecosystems" },
     { path: "/conservation", label: "Conservation" },
     { path: "/map", label: "Map" },
-    { path: "/value", label: "Value" },
+    { path: "/compare", label: "Compare" },
+    { path: "/climate", label: "🌡 Climate" },
+    { path: "/biodiversity", label: "Analytics" },
     { path: "/quiz", label: "Quiz" },
     { path: "/about", label: "About" },
   ];
